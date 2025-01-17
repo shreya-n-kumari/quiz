@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Hamburger } from './Hamburger'
 
 function Navbar() {
   return (
@@ -8,12 +9,14 @@ function Navbar() {
         <Link to='/'>
         <h2 className='py-4 px-8'>OnlineQuiz</h2>
         </Link>
-        <ul className='flex justify-end space-x-11 px-28 py-4'>
+        <ul className='hidden md:flex justify-end space-x-11 px-28 py-4'>
             <li>Live Quiz</li>
             <li>Default</li>
             <li>Login</li>
             <li>Register</li>
         </ul>
+
+        <Hamburger />
       </nav>
     </div>
   )

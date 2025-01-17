@@ -1,0 +1,2 @@
+-> In tailwind to make website responsive start design from mobile device.
+-> Because By default, Tailwind uses a mobile-first breakpoint system. Means normal code it use for mobile device and sm,md..etc breakpoints it use for that breakpoints and larger device.

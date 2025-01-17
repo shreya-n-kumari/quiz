@@ -48,7 +48,7 @@ const Slide = () => {
   return (
     <>
         <div className="mx-10 mb-10">
-        <h1 className="mt-16 mb-10 text-5xl font-bold">Computer science</h1>
+        <h1 className="mt-16 mb-10 text-3xl md:text-5xl font-bold">Computer science</h1>
       <Slider {...settings}>
         {/* <div className="space-x-3 flex flex-col"> */}
           <button className="box-border bg-orange-200 pb-8 mx-8" onClick={goToQuizReady}>
