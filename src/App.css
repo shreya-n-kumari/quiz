@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -26,7 +26,7 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
 /* @keyframes App-logo-spin {
   from {
@@ -38,12 +38,31 @@
 } */
 
 .slick-prev {
-  left: 3% !important;
+  left: -2% !important;
   z-index: 1;
 }
 .slick-next {
-  right: 3% !important;
+  right: -2% !important;
   z-index: 1;
 }
+.slick-slide{
+  width: 400px !important;
+  display: inline-block !important;
+  text-align: center ;
+}
+.slick-slider .slick-list {
+  transform: translate3d(-15px, 1, 0) !important;
+  padding: 0 245px !important;
+}
+/* .slick-track{
+  transform: none !important;
+} */
 
-
+@media screen and (min-width: 480px) {
+  .slick-slider .slick-list {
+    padding: 0 0 !important;
+  }
+  .slick-track{
+    transform: translate3d(-95px, 0px, 0px);
+  }
+}

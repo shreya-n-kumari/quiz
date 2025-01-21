@@ -126,7 +126,7 @@ const Ques = () => {
               <button
                 className={`${
                   answered ? "bg-orange-300" : "bg-orange-200"
-                } font-serif px-40 rounded-md text-xl`}
+                } font-serif px-20 md:px-40 rounded-md text-xl`}
                 onClick={NextQuestion}
                 disabled={answered ? "" : "disabled"}
               >
@@ -136,7 +136,7 @@ const Ques = () => {
           )}
           {showScore ? (
             <button
-              className="font-serif px-40 rounded-md text-xl bg-orange-300 mt-3"
+              className="font-serif px-16 md:px-40 rounded-md text-xl bg-orange-300 mt-3"
               onClick={reset}
             >
               Reset
