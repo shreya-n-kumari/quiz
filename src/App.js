@@ -6,6 +6,7 @@ import Slide from "./component/Slide";
 import QuizReady from "./component/QuizReady";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Ques from "./component/Ques";
+import ReactQues from "./component/ReactQues";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         {/* <Route path="/Slide" element={<Slide />} /> */}
         <Route path="/quiz-ready" element={<QuizReady />} />
         <Route path="/questions" element={<Ques />} />
+        <Route path="reactquiz" element={<ReactQues />} />
       </Routes>
 
       <Footer />

@@ -13,6 +13,10 @@ const Slide = () => {
     navigate("/quiz-ready");
   };
 
+  const goToReactQuiz = () =>{
+    navigate("/reactquiz");
+  }
+
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -53,19 +57,19 @@ const Slide = () => {
   return (
     <>
       <div className="mx-10 mb-10">
-        <h1 className="mt-16 mb-10 text-3xl md:text-5xl font-bold">
-          Computer science
-        </h1>
+        <h2 className="mt-16 mb-10 text-2xl md:text-5xl font-medium">
+            Choose Your Topic Here
+        </h2>
         <Slider {...settings}>
           <button className="box-border px-4 pb-8 mx-8" onClick={goToQuizReady}>
             <img src="quiz-ready.jpeg" alt="..." style={{ width: "100%" }} />
             <p className="pt-2 text-lg font-normal">Computer Science Quiz</p>
           </button>
 
-          <div className="box-border px-4 pb-8 mx-8">
+          <button className="box-border px-4 pb-8 mx-8" onClick={goToReactQuiz}>
             <img src="quiz-ready.jpeg" alt="..." style={{ width: "100%" }} />
-            <p className="pt-2 text-lg font-normal">Lorem ipsum dolor sit amet</p>
-          </div>
+            <p className="pt-2 text-lg font-normal">React Js Quiz</p>
+          </button>
 
           <div className="box-border px-4 pb-8 mx-8">
             <img src="quiz-ready.jpeg" alt="..." style={{ width: "100%" }} />
