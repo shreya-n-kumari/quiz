@@ -5,7 +5,7 @@ import { Hamburger } from './Hamburger'
 function Navbar() {
   return (
     <div>
-      <nav className='bg-orange-300 flex justify-between font-sans font-medium text-lg'>
+      <nav className='bg-[#cab577] flex justify-between font-sans font-medium text-lg'>
         <Link to='/'>
         <h2 className='py-4 px-8'>OnlineQuiz</h2>
         </Link>

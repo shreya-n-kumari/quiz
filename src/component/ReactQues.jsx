@@ -76,7 +76,7 @@ function Result({ score, total, onRestart }) {
       <p className="text-sm text-slate-500">You answered {pct}% correctly.</p>
       <button
         onClick={onRestart}
-        className="mt-6 w-full rounded-lg bg-blue-600 py-3 font-semibold text-white hover:bg-blue-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2"
+        className="mt-6 w-full rounded-lg bg-[#cab577] py-3 font-semibold text-white hover:bg-[#cab577] focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2"
       >
         Try again
       </button>
@@ -195,7 +195,7 @@ export default function QuizPage({
             <button
               disabled={!answered}
               onClick={next}
-              className="mt-5 w-full rounded-lg bg-blue-600 py-3 font-semibold text-white hover:bg-blue-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:bg-blue-300"
+              className="mt-5 w-full rounded-lg bg-[#cab577] py-3 font-semibold text-white hover:bg-[#cab577] focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:bg-[#cab577]"
             >
               {index + 1 === questions.length ? "See results" : "Next question"}
             </button>

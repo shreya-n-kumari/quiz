@@ -11,7 +11,7 @@ const QuizReady = () => {
   }
   return (
     <>
-      <div className="bg-gradient-to-b from-orange-300">
+      <div className="bg-gradient-to-b from-[#cab577]">
         <div className="py-12 flex flex-col justify-start items-center ">
         <img src="quesmark.png" />
         <h1 className="mb-3 font-serif text-xl">Computer Science Basic Ques</h1>

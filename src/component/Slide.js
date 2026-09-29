@@ -63,17 +63,17 @@ const Slide = () => {
         <Slider {...settings}>
           <button className="box-border px-4 pb-8 mx-8" onClick={goToQuizReady}>
             <img src="quiz-ready.jpeg" alt="..." style={{ width: "100%" }} />
-            <p className="pt-2 text-lg font-normal">Computer Science Quiz</p>
+            <p className="text-lg font-normal border-2 border-[#cab577] rounded-3xl mt-3">Computer Science Quiz</p>
           </button>
 
           <button className="box-border px-4 pb-8 mx-8" onClick={goToReactQuiz}>
             <img src="quiz-ready.jpeg" alt="..." style={{ width: "100%" }} />
-            <p className="pt-2 text-lg font-normal">React Js Quiz</p>
+            <p className="text-lg font-normal border-2 border-[#cab577] rounded-3xl mt-3">React Js Quiz</p>
           </button>
 
           <div className="box-border px-4 pb-8 mx-8">
             <img src="quiz-ready.jpeg" alt="..." style={{ width: "100%" }} />
-            <p className="pt-2 text-lg font-normal">Lorem ipsum dolor sit amet</p>
+            <p className="text-lg font-normal border-2 border-[#cab577] rounded-3xl mt-3">Coming Soon...</p>
           </div>
         </Slider>
       </div>
