@@ -13,7 +13,7 @@ const QuizReady = () => {
     <>
       <div className="bg-gradient-to-b from-[#cab577]">
         <div className="py-12 flex flex-col justify-start items-center ">
-        <img src="quesmark.png" />
+        <img src="quesmark.png" alt="quesmark" />
         <h1 className="mb-3 font-serif text-xl">Computer Science Basic Ques</h1>
         <p className="mb-4 font-serif text-xl">Answer these question correctly</p>
         <div className="flex space-x-8 mb-4">
